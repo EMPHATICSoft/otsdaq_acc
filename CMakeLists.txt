@@ -42,7 +42,7 @@ cet_set_compiler_flags(
 set(CMAKE_CXX_STANDARD 20)
 
 find_package(otsdaq 3.02.00 REQUIRED EXPORT)
-find_package(otsdaq_components 3.00.00 REQUIRED EXPORT)
+find_package(otsdaq-components 3.00.00 REQUIRED EXPORT)
 
 # XDAQ Extra setup
 include_directories($ENV{XDAQ_ROOT}/include/linux $ENV{XDAQ_ROOT}/include)
